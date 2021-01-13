@@ -1,6 +1,6 @@
 {
   "name": "among-us-ejection",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple package that demonstrates the Among Us Ejection scene!",
   "main": "index.js",
   "scripts": {
