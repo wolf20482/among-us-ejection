@@ -14,13 +14,6 @@ $ npm install among-us-ejection
 ```js
 const eject = require('among-us-ejection');
 
-eject('insert crewmate name here',amountOfImpostorsRemain);
-```
-
-## Example
-```js
-const eject = require('among-us-ejection');
-
 eject('Crewmate',1);
 // =>
 //. 　　　。　　　　•　 　ﾟ　　。 　　.
@@ -39,4 +32,12 @@ eject('Crewmate','gg');
 // => TypeError: Amount of Impostors remain must be a number!
 eject(309332345,1);
 // => TypeError: Crewmember name must be a string!
+```
+
+## Quick Example
+```js
+const eject = require('among-us-ejection');
+const result = eject('Crewmate',1);
+
+console.log(result)
 ```
