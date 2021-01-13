@@ -1,4 +1,8 @@
 # among-us-ejection
+
+![npm](https://img.shields.io/npm/v/among-us-ejection)
+![Maintenance](https://img.shields.io/maintenance/yes/2021)
+
 A simple npm package that demonstrates the Among Us ejection scene!
 
 ## Install
