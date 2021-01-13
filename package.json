@@ -1,0 +1,24 @@
+{
+  "name": "among-us-ejection",
+  "version": "1.0.0",
+  "description": "A simple package that demonstrates the Among Us Ejection scene!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wolf20482/among-us-ejection.git"
+  },
+  "keywords": [
+    "among us",
+    "among us ejection",
+    "ejection"
+  ],
+  "author": "Wolf20482",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wolf20482/among-us-ejection/issues"
+  },
+  "homepage": "https://github.com/wolf20482/among-us-ejection#readme"
+}
