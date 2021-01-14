@@ -3,11 +3,11 @@ module.exports = function eject(crewmember, isImpostor, impostorsRemain, map) {
     if (typeof impostorsRemain != 'number') throw new TypeError('Amount of Impostors remain must be a number!');
     if (typeof isImpostor != 'boolean') throw new TypeError('Impostor/Not Impostor must be a boolean!');
     if (isImpostor === true) {
-        impostor = 'The Impostor'
+        impostor = 'An Impostor'
     } else {
-        impostor = 'not The Impostor'
+        impostor = 'not An Impostor'
     }
-    if (impostorsRemain > 1) {
+    if (impostorsRemain > 1 || impostorsRemain = 0) {
         grammarCompliance = 'Impostors remain'
     } else {
         grammarCompliance = 'Impostor remains'
