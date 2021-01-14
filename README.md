@@ -19,15 +19,13 @@ $ npm install among-us-ejection
  * @param {string} [map] - The map that you will be ejecting the person out (Can be either The Skeld, MIRA HQ, Polus or The Airship)
  */
 var eject = require('among-us-ejection');
-eject(crewmember, isImpostor, impostorsRemain, map)
+eject(crewmember, isImpostor, impostorsRemain, map);
 ```
 
 ## Quick Example
 ```js
 const eject = require('among-us-ejection');
-const result = eject('Crewmate',true,0,'The Skeld');
-
-console.log(result)
+eject('Crewmate',true,0,'The Skeld');
 
 /* Expected Output:
 . 　　　。　　　　•　 　ﾟ　　。 　　.
