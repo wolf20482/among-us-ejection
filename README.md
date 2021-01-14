@@ -10,6 +10,52 @@ A simple npm package that demonstrates the Among Us ejection scene!
 $ npm install among-us-ejection
 ```
 
+## Ejection on Different Maps
+### The Skeld
+
+. 　　　。　　　　•　 　ﾟ　　。 　　.
+
+    　　　.　　　 　　.　　　　　。　　 。　. 　
+       
+    .　　 。　　　　　 ඞ  。 . 　　 • 　　　　•
+    
+    　　ﾟ　  Crewmate was not An Impostor.　 。　.
+      
+    　　'　　　 1 Impostor remains 　 　　。
+      
+    　　ﾟ　　　.　　　. ,　　　　.　 .
+
+### MIRA HQ
+☁️☁️☁️☁️☁️☁️☁️☁️☁️☁️☁️☁️☁️☁️☁️☁️
+
+        ☁️☁️☁️☁️☁️ ☁️☁️☁️☁️☁️  ☁️☁️☁️     ☁️☁️☁️☁️
+        
+     ☁️☁️☁️☁️☁️☁️   ඞ ☁️☁️☁️☁️☁️☁️☁️☁️☁️☁️☁️☁️☁️☁️
+     
+            Crewmate was not An Impostor.
+            
+               1 Impostor remains.
+
+### Polus
+                            ඞ
+                            
+            Crewmate was not An Impostor.
+            
+               1 Impostor remains.
+               
+      🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+
+### The Airship
+                            ඞ
+                            
+            ☁️☁️ Crewmate was not An Impostor.
+            
+    ☁️☁️☁️☁️☁️☁️☁️☁️ 1 Impostor remains.
+    
+        ☁️☁️☁️☁️☁️☁️ ☁️☁️☁️☁️☁️☁️☁️    ☁️☁️☁️☁️☁️☁️☁️☁️☁️☁️☁️
+        
+         ☁️☁️☁️☁️☁️☁️☁️☁️☁️☁️☁️☁️☁️☁️☁️   ☁️☁️☁️☁️☁️☁️☁️☁️
+
 ## Usage
 ```js
 /**
