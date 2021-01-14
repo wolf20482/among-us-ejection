@@ -20,7 +20,7 @@ module.exports = function eject(crewmember, isImpostor, impostorsRemain, map) {
     　　　.　　　 　　.　　　　　。　　 。　. 　
     .　　 。　　　　　 ඞ  。 . 　　 • 　　　　•
     　　ﾟ　  ${crewmember} was ${impostor}.　 。　.
-    　　'　　　 ${impostorsRemain} ${grammarCompliance} 　 　　。
+    　　'　　　 ${impostorsRemain} ${grammarCompliance}. 　 　　。
     　　ﾟ　　　.　　　. ,　　　　.　 .`
     } else if (map === 'MIRA HQ') {
         result = `☁️☁️☁️☁️☁️☁️☁️☁️☁️☁️☁️☁️☁️☁️☁️☁️
