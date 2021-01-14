@@ -16,14 +16,14 @@ module.exports = function eject(crewmember, isImpostor, impostorsRemain, map) {
         grammarCompliance = 'Impostor remains'
     }
     if (map === 'The Skeld') {
-        result = `. 　　　。　　　　•　 　ﾟ　　。 　　.
+        result = `
     　　　.　　　 　　.　　　　　。　　 。　. 　
     .　　 。　　　　　 ඞ  。 . 　　 • 　　　　•
     　　ﾟ　  ${crewmember} was ${impostor}.　 。　.
     　　'　　　 ${impostorsRemain} ${grammarCompliance}. 　 　　。
     　　ﾟ　　　.　　　. ,　　　　.　 .`
     } else if (map === 'MIRA HQ') {
-        result = `☁️☁️☁️☁️☁️☁️☁️☁️☁️☁️☁️☁️☁️☁️☁️☁️
+        result = `
         ☁️☁️☁️☁️☁️ ☁️☁️☁️☁️☁️  ☁️☁️☁️     ☁️☁️☁️☁️
      ☁️☁️☁️☁️☁️☁️   ඞ ☁️☁️☁️☁️☁️☁️☁️☁️☁️☁️☁️☁️☁️☁️
             ${crewmember} was ${impostor}
