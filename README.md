@@ -12,32 +12,29 @@ $ npm install among-us-ejection
 
 ## Usage
 ```js
-const eject = require('among-us-ejection');
-
-eject('Crewmate',1);
-// =>
-//. 　　　。　　　　•　 　ﾟ　　。 　　.
-//
-//　　　.　　　 　　.　　　　　。　　 。　. 　
-//
-//.　　 。　　　　　 ඞ 。 . 　　 • 　　　　•
-//
-//ﾟ Crewmate was not The Impostor.　 。　.
-//
-//' 1 Impostor remains 　 　　。
-//
-//　　ﾟ　　　.　　　. ,　　　　.　 .
-//
-eject('Crewmate','gg');
-// => TypeError: Amount of Impostors remain must be a number!
-eject(309332345,1);
-// => TypeError: Crewmember name must be a string!
+/**
+ * @param {string} [crewmember] - Name of ejected crewmember.
+ * @param {boolean} [isImpostor] - Is this person An Impostor?
+ * @param {number} [impostorsRemain] - How many Impostors remain.
+ * @param {string} [map] - The map that you will be ejecting the person out (Can be either The Skeld, MIRA HQ, Polus or The Airship)
+ */
+var eject = require('among-us-ejection');
+eject(crewmember, isImpostor, impostorsRemain, map)
 ```
 
 ## Quick Example
 ```js
 const eject = require('among-us-ejection');
-const result = eject('Crewmate',1);
+const result = eject('Crewmate',true,0,'The Skeld');
 
 console.log(result)
+
+/* Expected Output:
+. 　　　。　　　　•　 　ﾟ　　。 　　.
+    　　　.　　　 　　.　　　　　。　　 。　. 　
+    .　　 。　　　　　 ඞ  。 . 　　 • 　　　　•
+    　　ﾟ　  Crewmate was The Impostor.　 。　.
+    　　'　　　 0 Impostors remain. 　 　　。
+    　　ﾟ　　　.　　　. ,　　　　.　 .
+*/
 ```
