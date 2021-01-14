@@ -13,7 +13,7 @@ $ npm install among-us-ejection
 ## Ejection on Different Maps
 ### The Skeld
 
-. 　　　。　　　　•　 　ﾟ　　。 　　.
+
 
     　　　.　　　 　　.　　　　　。　　 。　. 　
        
@@ -26,7 +26,7 @@ $ npm install among-us-ejection
     　　ﾟ　　　.　　　. ,　　　　.　 .
 
 ### MIRA HQ
-☁️☁️☁️☁️☁️☁️☁️☁️☁️☁️☁️☁️☁️☁️☁️☁️
+
 
         ☁️☁️☁️☁️☁️ ☁️☁️☁️☁️☁️  ☁️☁️☁️     ☁️☁️☁️☁️
         
